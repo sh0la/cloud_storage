@@ -4,12 +4,21 @@ body {
   font-family: 'Blinker', sans-serif;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 nav {
   text-align: center;
   padding: 10px 20px;
 }
 
 .right-nav p {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
   display: inline;
   padding: 10px;
 
