@@ -30,3 +30,38 @@ body {
   text-decoration: none;
   color: white;
 }
+
+.price-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: rgb(26, 0, 36);
+}
+
+.box {
+  padding-left: 0;
+  margin: 10px 0;
+  width: 60%;
+  background-color: grey;
+  text-align: center;
+}
+.box ul {
+  padding-left: 0;
+}
+
+.box li{
+  list-style: none;
+  padding: 2px;
+}
+
+
+.box p {
+  padding: 10px 0;
+  background-color: #fc064c;
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-size: 30px;
+  width: 100%;
+}
