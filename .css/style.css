@@ -8,19 +8,22 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  background: rgb(2,0,36);
+  color: white;
+  padding: 10px 0;
+  align-items: center;
+  
 }
 
-nav {
-  text-align: center;
-  padding: 10px 20px;
+.left-nav {
+  font-size: 50px;
 }
 
-.right-nav p {
+.right-nav {
   display: flex;
-  justify-content: center;
-  flex-flow: row;
-  display: inline;
-  padding: 10px;
+  flex-direction: row;
+  justify-content: space-around;  
+  width: 250px;
 
 
 }
