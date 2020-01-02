@@ -1,0 +1,17 @@
+
+body {
+  margin: 0;
+  font-family: 'Blinker', sans-serif;
+}
+
+nav {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.right-nav p {
+  display: inline;
+  padding: 10px;
+
+
+}
