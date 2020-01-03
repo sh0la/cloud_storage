@@ -4,11 +4,15 @@ body {
   font-family: 'Blinker', sans-serif;
 }
 
+header {
+  border-bottom: 2px solid #fc064c;
+}
+
 .container {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background: rgb(2,0,36);
+  background: rgb(13, 13, 14);
   color: white;
   padding: 10px 0;
   align-items: center;
@@ -37,31 +41,39 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
-  background: rgb(26, 0, 36);
+  background: rgb(59, 57, 59);
 }
 
 .box {
   padding-left: 0;
-  margin: 10px 0;
+  margin: 20px 0;
   width: 60%;
   background-color: grey;
   text-align: center;
 }
+
 .box ul {
   padding-left: 0;
 }
 
-.box li{
+.box li {
   list-style: none;
   padding: 2px;
 }
 
-
 .box p {
   padding: 10px 0;
   background-color: #fc064c;
-  margin-top: 40px;
-  margin-bottom: 0;
+  margin: 0;
   font-size: 30px;
   width: 100%;
+}
+
+li.price {
+  padding-top: 40px;
+  
+}
+
+@media screen and (min-width: 600px) {
+
 }
