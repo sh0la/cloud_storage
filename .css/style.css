@@ -2,6 +2,7 @@
 body {
   margin: 0;
   font-family: 'Blinker', sans-serif;
+  max-width: 400px;
 }
 
 header {
@@ -92,6 +93,12 @@ li.price {
   
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 800px) {
+
+  
+
+  .box {
+  width: 50%;
+  }
 
 }
