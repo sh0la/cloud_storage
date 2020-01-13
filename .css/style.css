@@ -93,12 +93,16 @@ li.price {
   
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 800px) {
 
-  
+  .price-options {
+    display: grid;
 
-  .box {
-  width: 50%;
+    grid-template-columns: 1fr 1fr;
   }
+
+  /* .box {
+  width: 50%;
+  } */
 
 }
